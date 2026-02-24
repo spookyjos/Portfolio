@@ -28,8 +28,10 @@ export default function SkillsSection () {
               <div>
                 <h3 className="text-lg font-semibold mb-4">Web</h3>
                 <ul className="space-y-2 text-slate-400">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
                   <li>Next.js</li>
-                  <li>React</li>
                   <li>TailwindCSS</li>
                 </ul>
               </div>
