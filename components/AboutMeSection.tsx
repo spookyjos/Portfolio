@@ -13,8 +13,10 @@ export default function AboutMeSection() {
                   <p className="font-sans text-4xl md:text-5xl font-semibold tracking-tight text-slate-100">
                     Josiah Rachmat
                   </p>
-                  <p className="font-sans text-4xl md:text-2xl font-semibold tracking-tight text-slate-100 mx-28">
-                    Hi! I'm currently a first year student under the Singapore University of Technology and Design (SUTD). In my free time, I like to pursue knowledge in the web development and cybersecurity realms, as well as bouldering on the side.
+                  <p className="font-sans text-lg md:text-2xl font-semibold tracking-tight text-slate-100 mx-6 md:mx-28">
+                    Hi! I'm currently a first year student under the Singapore University of Technology and Design (SUTD). 
+                    In my free time, I like to pursue knowledge in the web development and cybersecurity realms, 
+                    as well as bouldering on the side.
                   </p>
                 </div>
     );
