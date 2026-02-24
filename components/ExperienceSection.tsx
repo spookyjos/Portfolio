@@ -15,7 +15,7 @@ export default function ExperienceSection () {
                 <p className="text-sm text-slate-500">Feb 2023 – Apr 2025</p>
                 <p className="text-sm text-sky-400 mt-1">Intelligence Analyst</p>
                 <p className="mt-3 text-slate-400 text-sm">
-                  Worked under the National Cyber Threat Monitoring Centre for a period of 2 years. Aided in filtering and disseminating relevant information and actionanble items to stakeholders in the Singapore Critical Information Infrastructure with urgency. 
+                  Worked under the National Cyber Threat Monitoring Centre for a period of 2 years. Aided in filtering and disseminating relevant information and actionable items to stakeholders in the Singapore Critical Information Infrastructure with urgency. 
                 </p>
               </div>
 
