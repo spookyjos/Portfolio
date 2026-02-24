@@ -28,7 +28,6 @@ export default function ProjectsSection() {
         { type: "image", src: "/apt-1.jpeg" },
         { type: "image", src: "/apt-2.jpeg" },
         { type: "image", src: "/apt-3.jpeg" },
-        {/* { type: "video", src: "/apt-demo.mp4" }, */}
       ],
     },
     {
