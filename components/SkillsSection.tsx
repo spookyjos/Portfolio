@@ -12,7 +12,6 @@ export default function SkillsSection () {
                 <h3 className="text-lg font-semibold mb-4">Programming</h3>
                 <ul className="space-y-2 text-slate-400">
                   <li>Python</li>
-                  <li>TypeScript</li>
                 </ul>
               </div>
 
