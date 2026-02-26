@@ -31,8 +31,6 @@ export default function SkillsSection () {
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JavaScript</li>
-                  <li>Next.js</li>
-                  <li>TailwindCSS</li>
                 </ul>
               </div>
 
