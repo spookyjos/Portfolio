@@ -1,6 +1,11 @@
 import Image from "next/image";
 import cert from "../app/data/OSCPplus.json";
 
+const linkedInPostUrl =
+    "https://www.linkedin.com/feed/update/urn:li:activity:7455669588647800833/";
+const linkedInPreviewImage =
+    "https://media.licdn.com/dms/image/v2/D5622AQHaSuHEIKTM-w/feedshare-image-high-res/B56Z3fb9O9I8AU-/0/1777570143937?e=2147483647&v=beta&t=c0Dh8fkG0iCVxiT5O53r5taRiyNLFA71ya5KNROliS4";
+
 
 
 export default function AchievementsSection() {
@@ -10,24 +15,41 @@ export default function AchievementsSection() {
             <h2 className="font-sans text-4xl md:text-4xl font-semibold tracking-tight text-slate-100 text-left">
                 Recent Achievements
             </h2>
-            <section id="DEFCON-SG" className="rounded-xl border border-neutral-800 bg-neutral-900 p-6 text-sm text-slate-100">
-                <h2 className="text-base font-semibold">
-                    ret2sutd
-                </h2>
+            <section id="DEFCON-SG" className="overflow-hidden rounded-xl border border-neutral-800 bg-neutral-900 text-sm text-slate-100">
+                <div className="relative">
+                    <a
+                        href={linkedInPostUrl}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label="Open LinkedIn post"
+                        className="group block"
+                    >
+                        <div className="relative aspect-[16/10] w-full overflow-hidden bg-neutral-950">
+                            <Image
+                                src={linkedInPreviewImage}
+                                alt="LinkedIn post preview"
+                                fill
+                                className="object-cover transition duration-300 group-hover:scale-[1.02]"
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                            />
+                        </div>
+                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4">
+                            <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white backdrop-blur">
+                                View LinkedIn post
+                            </span>
+                        </div>
+                    </a>
+                </div>
 
-                <p className="mt-4 text-sm leading-relaxed text-slate-200">
-                    Participated with ret2sutd at DEFCON SG and showcased an Active Directory Adverserial Emulation Activity, featuring techniques like kerberoasting, utilman.exe hijacking as well as intentionally misconfigured services like FTP and SMB.
-                
-                </p>
+                <div className="p-6">
+                    <h2 className="text-base font-semibold">
+                        ret2sutd
+                    </h2>
 
-                <a
-                    href="https://www.linkedin.com/feed/update/urn:li:activity:7455669588647800833/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="mt-4 inline-block text-xs text-sky-400 underline"
-                >
-                    View LinkedIn post
-                </a>
+                    <p className="mt-4 text-sm leading-relaxed text-slate-200">
+                        Participated with ret2sutd at DEFCON SG and showcased an Active Directory Adverserial Emulation Activity, featuring techniques like kerberoasting, utilman.exe hijacking as well as intentionally misconfigured services like FTP and SMB.
+                    </p>
+                </div>
             </section>
 
             <section id="OSCP+" className="mt-12 rounded-xl border border-neutral-800 bg-neutral-900 p-6 text-sm text-slate-100">
