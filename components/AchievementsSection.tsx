@@ -10,6 +10,26 @@ export default function AchievementsSection() {
             <h2 className="font-sans text-4xl md:text-4xl font-semibold tracking-tight text-slate-100 text-left">
                 Recent Achievements
             </h2>
+            <section id="DEFCON-SG" className="rounded-xl border border-neutral-800 bg-neutral-900 p-6 text-sm text-slate-100">
+                <h2 className="text-base font-semibold">
+                    ret2sutd
+                </h2>
+
+                <p className="mt-4 text-sm leading-relaxed text-slate-200">
+                    Participated with ret2sutd at DEFCON SG and showcased an Active Directory Adverserial Emulation Activity, featuring techniques like kerberoasting, utilman.exe hijacking as well as intentionally misconfigured services like FTP and SMB.
+                
+                </p>
+
+                <a
+                    href="https://www.linkedin.com/feed/update/urn:li:activity:7455669588647800833/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="mt-4 inline-block text-xs text-sky-400 underline"
+                >
+                    View LinkedIn post
+                </a>
+            </section>
+
             <section id="OSCP+" className="mt-12 rounded-xl border border-neutral-800 bg-neutral-900 p-6 text-sm text-slate-100">
                 <h2 className="text-base font-semibold">
                 {cert.name}
