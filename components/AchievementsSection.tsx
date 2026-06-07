@@ -4,7 +4,7 @@ import cert from "../app/data/OSCPplus.json";
 const linkedInPostUrl =
     "https://www.linkedin.com/feed/update/urn:li:activity:7455669588647800833/";
 const linkedInPreviewImage =
-    "https://media.licdn.com/dms/image/v2/D5622AQHaSuHEIKTM-w/feedshare-image-high-res/B56Z3fb9O9I8AU-/0/1777570143937?e=2147483647&v=beta&t=c0Dh8fkG0iCVxiT5O53r5taRiyNLFA71ya5KNROliS4";
+    "/defcon-creator-badge.jpg";
 
 
 
@@ -43,7 +43,7 @@ export default function AchievementsSection() {
 
                 <div className="p-6">
                     <h2 className="text-base font-semibold">
-                        ret2sutd
+                        DEFCON SG 1 - Creator
                     </h2>
 
                     <p className="mt-4 text-sm leading-relaxed text-slate-200">
