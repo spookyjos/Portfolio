@@ -3,8 +3,6 @@ import cert from "../app/data/OSCPplus.json";
 
 const linkedInPostUrl =
     "https://www.linkedin.com/feed/update/urn:li:activity:7455669588647800833/";
-const linkedInPreviewImage =
-    "/defcon-creator-badge.jpg";
 
 
 
@@ -26,7 +24,7 @@ export default function AchievementsSection() {
                     >
                         <div className="relative aspect-[16/10] w-full overflow-hidden bg-neutral-950">
                             <Image
-                                src={linkedInPreviewImage}
+                                src="/defcon-creator-badge.jpg"
                                 alt="LinkedIn post preview"
                                 fill
                                 className="object-cover transition duration-300 group-hover:scale-[1.02]"
